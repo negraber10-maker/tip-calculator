@@ -17,8 +17,12 @@
         const result = document.getElementById("result");
 
         calculateBtn.addEventListener("click", function () {
-            console.log("clicked");
-    // code that runs on each click
+            console.log(billAmount.value);
+            console.log(tipPercentage.value);
+            const bill = parseFloat(billAmount.value);
+            const tip = parseFloat(tipPercentage.value);
+            console.log(bill + tip);
+            // code that runs on each click
 });
 
     </script>
