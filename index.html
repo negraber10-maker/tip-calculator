@@ -25,7 +25,10 @@
                 console.log(tipPerc);
             const tipTotal = tipPerc * bill;
                 console.log(tipTotal);
-            console.log(bill + tipTotal);
+            const billTotal = bill + tipTotal;
+            console.log(billTotal);
+            
+            result.textContent = "Tip: $" + tipTotal + " Total: $" + billTotal;
             // code that runs on each click
 });
 
