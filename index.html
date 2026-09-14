@@ -21,7 +21,11 @@
             console.log(tipPercentage.value);
             const bill = parseFloat(billAmount.value);
             const tip = parseFloat(tipPercentage.value);
-            console.log(bill + tip);
+            const tipPerc = tip / 100;
+                console.log(tipPerc);
+            const tipTotal = tipPerc * bill;
+                console.log(tipTotal);
+            console.log(bill + tipTotal);
             // code that runs on each click
 });
 
