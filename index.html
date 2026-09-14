@@ -28,7 +28,7 @@
             const billTotal = bill + tipTotal;
             console.log(billTotal);
             
-            result.textContent = "Tip: $" + tipTotal + " Total: $" + billTotal;
+            result.textContent = "Tip: $" + tipTotal.toFixed(2) + " Total: $" + billTotal.toFixed(2);
             // code that runs on each click
 });
 
